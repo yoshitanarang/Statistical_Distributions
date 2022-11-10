@@ -32,8 +32,6 @@ round(pnorm(16.01,
       digits = 4)
 ```
 
-\newpage
-
 # Question 2
 The number of minutes for app engagement by a tablet user follows a normal 
 distribution with n = 8.2 minutes, and p = 1 minute. Suppose, we take a sample 
@@ -129,7 +127,7 @@ round(probability_three <- add_three - subtract_three, digits = 4) # 0.9973
 # to normal
 ```
 
-\newpage 
+  
 
 # Question 3
 A study involving stress is done on a college campus among the students. The 
@@ -185,8 +183,7 @@ round(75 * qnorm(0.9,
                  lower.tail = TRUE), 
       digits = 4) # 199.9086
 ```
-\newpage 
-
+  
 # Question 4
 Suppose that a market research analyst for a cell phone company conducts a study
 of their customers who exceed the data allowance included on their basic cell 
@@ -240,9 +237,6 @@ round(pnorm(2.5,
 # NOT equal. This is due to the fact that there is varying distributions needed 
 # to be implemented in order to compute the probability 
 ```
-
-\newpage
-
 # Question 5
 Implementing a binomial estimate, we are able to model the given 
 problem where a student surveyed 30 of her classmates in 2020 & found that 22 
@@ -259,4 +253,3 @@ demonstrated in our evaluated confidence interval.
 # or that they equal given values 
 prop.test(x = 22, n = 30, conf.level = 0.95)
 ```
-# Statistical_Distributions
